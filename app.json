@@ -1,5 +1,5 @@
 {
-  "name": "HYDRA_BOTS-VideoCompressBot",
+  "name": "MT-VideoCompressBot",
   "description": "Telegram's best Video Compress Bot",
   "logo": "https://telegra.ph/file/b687febf32e4d583fb1d4.jpg",
   "keywords": [
@@ -8,8 +8,10 @@
     "video",
     "compress",
     "bot"
-  ]
-  
+  ],
+  "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+  "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+  "repository": "https://github.com/MRK-YT/MT-VideoCompress",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -17,7 +19,7 @@
     },
     "SESSION_NAME": {
       "description": "Keep this default",
-      "value": "HYDRA_BOTSCompressBot",
+      "value": "MTCompressBot",
       "required": true
     },
     "DATABASE_URL": {
